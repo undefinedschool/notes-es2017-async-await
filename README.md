@@ -56,3 +56,6 @@ getPost();
 ```
 
 ## Error Handling
+
+[![Complete Guide to JS Async & Await ES2017/ES8](https://img.youtube.com/vi/krAYA4rvbdA/0.jpg)](https://www.youtube.com/watch?v=krAYA4rvbdA)
+> Ver [Complete Guide to JS Async & Await ES2017/ES8](https://www.youtube.com/watch?v=krAYA4rvbdA)
