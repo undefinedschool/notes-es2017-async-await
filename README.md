@@ -39,3 +39,20 @@ la función pasa a retornar una `Promise` a este número.
 
 > 👉 El operador `await` le indica a un valor o expresión cualquiera que tenga a continuación, que espere a que la [Promise](https://github.com/undefinedschool/notes-es6-promises) se resuelva antes de continuar (lo que haríamos con el `.then()`). Cuando se usa junto con la declaración de una variable o constante (`var`, `let` o `const`), asigna la respuesta de la promesa a la variable, en lugar de la promesa en si misma.
 
+👉 **`await` sólo puede utilizarse dentro de una función `async`**
+
+Ejemplo usando `fetch`
+
+```js
+async function getPost() {
+  const response = await fetch('https://jsonplaceholder.typicode.com/posts/5');
+	const post = await response.json();
+  
+  console.log(post);
+  return post;
+};
+
+getPost();
+```
+
+## Error Handling
