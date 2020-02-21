@@ -58,6 +58,9 @@ async function getPost() {
 getPost();
 ```
 
+[![The Async Await Episode I Promised](https://img.youtube.com/vi/vn3tm0quoqE/0.jpg)](https://www.youtube.com/watch?v=vn3tm0quoqE)
+> Ver [The Async Await Episode I Promised](https://www.youtube.com/watch?v=vn3tm0quoqE)
+
 ## Error Handling
 
 Si miramos el ejemplo anterior, qué pasaría si por ejemplo el `fetch` falla? No estamos manejando los errores de ninguna forma. Lo mismo sucede con `.json()`.
