@@ -40,7 +40,7 @@ la función pasa a retornar una `Promise` a este número.
 
 ## Await
 
-> 👉 El operador `await` le indica a un valor o expresión cualquiera que tenga a continuación, que espere a que la [Promise](https://github.com/undefinedschool/notes-es6-promises) se resuelva antes de continuar (lo que haríamos con el `.then()`). Cuando se usa junto con la declaración de una variable o constante (`var`, `let` o `const`), asigna la respuesta de la promesa a la variable, en lugar de la promesa en si misma.
+> 👉 El operador `await` le indica a un valor o expresión cualquiera que tenga a continuación, que espere a que la [Promise](https://github.com/undefinedschool/notes-es6-promises) se resuelva antes de continuar (lo que haríamos con el `.then()`), es decir, **pausa la ejecución de la función `async`**. Cuando se usa junto con la declaración de una variable o constante (`var`, `let` o `const`), asigna la respuesta de la promesa a la variable, en lugar de la promesa en si misma.
 
 👉 **`await` sólo puede utilizarse dentro de una función `async`**
 
@@ -60,6 +60,8 @@ getPost();
 
 [![The Async Await Episode I Promised](https://img.youtube.com/vi/vn3tm0quoqE/0.jpg)](https://www.youtube.com/watch?v=vn3tm0quoqE)
 > Ver [The Async Await Episode I Promised](https://www.youtube.com/watch?v=vn3tm0quoqE)
+
+> 👉 Algo importante de entender es que hablamos de _pausar la ejecución de la función `async`_ pero no de _bloquear_. Async/Await no deja de ser otra forma de escribir Promises, por lo que se trata siempre de código asincrónico y **no estamos bloqueando el [_Event Loop_](https://github.com/undefinedschool/notes-event-loop/)** 
 
 ## Error Handling
 
