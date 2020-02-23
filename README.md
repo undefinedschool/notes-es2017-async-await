@@ -98,3 +98,13 @@ async function getPost() {
 
 getPost();
 ```
+
+## Reject
+
+> 👉 Una función `async` retorna un valor envuelto en una [Promise](https://github.com/undefinedschool/notes-es6-promises/) resuelta. Si queremos en cambio retornar una promesa rechazada, usamos `throw` dentro de la función
+
+```js
+async function rejection() {
+  throw 'I'm rejecting this promise...';
+}
+```
