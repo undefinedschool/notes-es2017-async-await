@@ -40,7 +40,7 @@ la función pasa a retornar una `Promise` a este número.
 
 ## Await
 
-> 👉 El operador `await` le indica a un valor o expresión cualquiera que tenga a continuación, que espere a que la [Promise](https://github.com/undefinedschool/notes-es6-promises) se resuelva antes de continuar (lo que haríamos con el `.then()`), es decir, **pausa la ejecución de la función `async`**. Cuando se usa junto con la declaración de una variable o constante (`var`, `let` o `const`), asigna la respuesta de la promesa a la variable, en lugar de la promesa en si misma.
+> 👉 **El operador `await` le indica a un valor o expresión cualquiera que tenga a continuación, que espere a que la [Promise](https://github.com/undefinedschool/notes-es6-promises) se resuelva antes de continuar** (lo que haríamos con el `.then()`) **y extraer su valor ya resuelto**, es decir, **pausa la ejecución de la función `async`**. Cuando se usa junto con la declaración de una variable o constante (`var`, `let` o `const`), asigna la respuesta de la promesa a la variable, en lugar de la promesa en si misma.
 
 👉 **`await` sólo puede utilizarse dentro de una función `async`**
 
