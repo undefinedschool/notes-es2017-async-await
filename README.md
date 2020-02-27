@@ -3,7 +3,7 @@
 
 > 👉 Si te resultó útil, **se agradece que lo compartas para que le llegue a más gente!**
 
-# ✨ ES2017: Async/Await
+# ![Notas de ES2017: Async/Await](https://i.imgur.com/IYaNvE0.png)
 
 Una de las principales desventajas de manejar asincrinismo en JavaScript, es que muchas veces resulta algo complejo razonar o seguir el flujo de las diferentes operaciones, principalmente porque estamos más acostumbrados a pensar de forma _sincrónica_.
 
