@@ -5,6 +5,25 @@
 
 # ![Notas de ES2017: Async/Await](https://i.imgur.com/IYaNvE0.png)
 
+## Notas sobre Asincronismo en JS
+
+- [Callbacks](https://github.com/undefinedschool/notes-callbacks)
+- [ES6: Promises](https://github.com/undefinedschool/notes-es6-promises)
+- [ES2017: Async/Await](https://github.com/undefinedschool/notes-es2017-async-await)
+- [Event Loop](https://github.com/undefinedschool/notes-event-loop)
+
+## Contenido
+
+- [Intro](https://github.com/undefinedschool/notes-es2017-async-await#intro)
+- [Async](https://github.com/undefinedschool/notes-es2017-async-await#async)
+- [Await](https://github.com/undefinedschool/notes-es2017-async-await#await)
+- [Error Handling](https://github.com/undefinedschool/notes-es2017-async-await#error-handling)
+- [Reject](https://github.com/undefinedschool/notes-es2017-async-await#reject)
+
+---
+
+## Intro
+
 Una de las principales desventajas de manejar asincrinismo en JavaScript, es que muchas veces resulta algo complejo razonar o seguir el flujo de las diferentes operaciones, principalmente porque estamos más acostumbrados a pensar de forma _sincrónica_.
 
 Es por esto que en la versión [ES2017](https://medium.com/@tmvvr/ecmascript-async-await-to-the-rescue-fc379ff89146) de JavaScript se incorporó una nueva forma de trabajar con código asincrónico, `async/await`.
