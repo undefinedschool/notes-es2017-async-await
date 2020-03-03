@@ -7,7 +7,7 @@
 
 ## Contenido relacionado
 
-### `Async JS`
+### `async`
 
 - [**Callbacks**](https://github.com/undefinedschool/notes-callbacks)
 - [**ES6: Promises**](https://github.com/undefinedschool/notes-es6-promises)
