@@ -35,6 +35,8 @@ Es por esto que en la versión [ES2017](https://medium.com/@tmvvr/ecmascript-asy
 [![Complete Guide to JS Async & Await ES2017/ES8](https://img.youtube.com/vi/krAYA4rvbdA/0.jpg)](https://www.youtube.com/watch?v=krAYA4rvbdA)
 > Ver [Complete Guide to JS Async & Await ES2017/ES8](https://www.youtube.com/watch?v=krAYA4rvbdA)
 
+[↑ Ir al inicio](https://github.com/undefinedschool/notes-es2017-async-await#contenido)
+
 ## Async
 
 > 👉 El operador `async` transforma una función cualquiera en una que retorna una [Promise](https://github.com/undefinedschool/notes-es6-promises). Entonces, al agregar `async` delante de cualquier función, esta pasa automáticamente a retornar una promesa al valor original que retornaba antes. 
@@ -56,6 +58,8 @@ async function sum(a, b) {
 ```
 
 la función pasa a retornar una `Promise` a este número.
+
+[↑ Ir al inicio](https://github.com/undefinedschool/notes-es2017-async-await#contenido)
 
 ## Await
 
@@ -81,6 +85,8 @@ getPost();
 > Ver [The Async Await Episode I Promised](https://www.youtube.com/watch?v=vn3tm0quoqE)
 
 > 👉 Algo importante de entender es que hablamos de _pausar la ejecución de la función `async`_ pero no de _bloquear_. Async/Await no deja de ser otra forma de escribir Promises, por lo que se trata siempre de código asincrónico y **no estamos bloqueando el [_Event Loop_](https://github.com/undefinedschool/notes-event-loop/)** 
+
+[↑ Ir al inicio](https://github.com/undefinedschool/notes-es2017-async-await#contenido)
 
 ## Error Handling
 
@@ -120,6 +126,8 @@ async function getPost() {
 getPost();
 ```
 
+[↑ Ir al inicio](https://github.com/undefinedschool/notes-es2017-async-await#contenido)
+
 ## Reject
 
 > 👉 Una función `async` retorna un valor envuelto en una [Promise](https://github.com/undefinedschool/notes-es6-promises/) resuelta. Si queremos en cambio retornar una promesa rechazada, usamos `throw` dentro de la función
@@ -129,3 +137,5 @@ async function rejection() {
   throw 'I'm rejecting this promise...';
 }
 ```
+
+[↑ Ir al inicio](https://github.com/undefinedschool/notes-es2017-async-await#contenido)
